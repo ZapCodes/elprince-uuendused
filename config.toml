@@ -413,10 +413,10 @@ enableEmoji = false
       # Disqus comment config (https://disqus.com/)
       # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
-        enable = false
+        enable = true
         # Disqus shortname to use Disqus in posts
         # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
-        shortname = ""
+        shortname = "Väited"
       # Gitalk comment config (https://github.com/gitalk/gitalk)
       # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
@@ -571,7 +571,7 @@ enableEmoji = false
     [params.cookieconsent.content]
       message = "Olete kaitstud leheküljel mis jälgib teie liigutusi"
       dismiss = "yes"
-      #link = "google.com"
+      link = "https://support.google.com/analytics/answer/9976101?hl=en"
 
   # CDN config for third-party library files
   # 第三方库文件的 CDN 设置
