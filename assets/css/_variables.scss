@@ -10,20 +10,20 @@ $global-font-weight: 400;
 $global-line-height: 1.5rem;
 
 // Color of the background
-$global-background-color: #fff !default;
-$global-background-color-dark: #292a2d !default;
+$global-background-color: #f3230cce;
+$global-background-color-dark: #252b63ce;
 
 // Color of the text
-$global-font-color: #161209 !default;
-$global-font-color-dark: #a9a9b3 !default;
+$global-font-color: #fffefb;
+$global-font-color-dark: #fffefb;
 
 // Color of the secondary text
-$global-font-secondary-color: #a9a9b3 !default;
-$global-font-secondary-color-dark: #5d5d5f !default;
+$global-font-secondary-color: #fffefb;
+$global-font-secondary-color-dark: #fffefb;
 
 // Color of the link
-$global-link-color: #161209 !default;
-$global-link-color-dark: #a9a9b3 !default;
+$global-link-color: #f3b31d ;
+$global-link-color-dark: #10d9eb !default;
 
 // Color of the hover link
 $global-link-hover-color: #2d96bd !default;
@@ -31,7 +31,7 @@ $global-link-hover-color-dark: #fff !default;
 
 // Color of the border
 $global-border-color: #f0f0f0 !default;
-$global-border-color-dark: #363636 !default;
+$global-border-color-dark: #ffffff !default;
 // ========== Global ========== //
 
 // ========== Scrollbar ========== //
@@ -84,7 +84,7 @@ $single-link-hover-color-dark: #bdebfc !default;
 
 // Color of the table background
 $table-background-color: #fff !default;
-$table-background-color-dark: #272c34 !default;
+$table-background-color-dark: #303235 !default;
 
 // Color of the table thead
 $table-thead-color: #ededed !default;
