@@ -2,7 +2,9 @@
     {{- $params := .Scratch.Get "params" -}}
     {{- $profile := .Site.Params.home.profile -}}
     {{- $posts := .Site.Params.home.posts -}}
-
+    {{ partial "plugin/ads.html" .}}
+    {{ partial "plugin/analytics.html" .}}
+	
     <div class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
         {{- /* Profile */ -}}
         {{- if ne $profile.enable false -}}
@@ -36,6 +38,9 @@
                 {{- .Render "summary" -}}
             {{- end -}}
             {{- partial "paginator.html" . -}}
+            {{ partial "plugin/ads.html" .}}
+            {{ partial "plugin/analytics.html" .}}
+	        
         {{- end -}}
     </div>
     <!-- Google tag (gtag.js) -->
