@@ -1,14 +1,20 @@
 ---
-weight: 4
 title: "Uuendus #1"
-author: "Stenuuu"
+author: Stenuuu
 
-link: https://elprinceroleplay.onrender.com/
-tags: ["Uuendused", "Uuendused"]
-categories: ["Uuendused"]
+date: 2022-09-10
 
-lightgallery: true
+url: /uuendus1/
+
+categories:
+  - Uuendused
+tags:
+  - Uuendused
+draft: false
 ---
+
+
+# HETKEL TULEKUL
 
 # HETKESED UUENDUSED -
 
