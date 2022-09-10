@@ -218,7 +218,7 @@ enableEmoji = false
     enable = false
     # type of search engine ["lunr", "algolia"]
     # 搜索引擎的类型 ["lunr", "algolia"]
-    type = "lunr"
+    type = "algolia"
     # max index length of the chunked content
     # 文章内容最长索引长度
     contentLength = 4000
@@ -428,7 +428,7 @@ enableEmoji = false
       # Valine comment config (https://github.com/xCss/Valine)
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = true
+        enable = false
         appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
         appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
         placeholder = ""
@@ -571,7 +571,7 @@ enableEmoji = false
     [params.cookieconsent.content]
       message = "Olete kaitstud leheküljel mis jälgib teie liigutusi"
       dismiss = "yes"
-      link = "google.com"
+      #link = "google.com"
 
   # CDN config for third-party library files
   # 第三方库文件的 CDN 设置
