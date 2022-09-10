@@ -525,13 +525,13 @@ enableEmoji = false
   # Analytics config
   # 网站分析配置
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "4053496916"
       # whether to anonymize IP
       # 是否匿名化用户 IP
-      anonymizeIP = true
+      anonymizeIP = false
     # Fathom Analytics
     [params.analytics.fathom]
       id = ""
@@ -713,8 +713,8 @@ enableEmoji = false
         absoluteURL = false
         [languages.en.params.search.algolia]
           index = "index.en"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+          appID = ""
+          searchKey = ""
       [languages.en.params.home]
         rss = 10
         [languages.en.params.home.profile]
