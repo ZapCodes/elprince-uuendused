@@ -2,8 +2,8 @@
     {{- $params := .Scratch.Get "params" -}}
     {{- $profile := .Site.Params.home.profile -}}
     {{- $posts := .Site.Params.home.posts -}}
-    {{ partial "plugin/ads.html" .}}
-    {{ partial "plugin/analytics.html" .}}
+    {{ partial "plugin/ading.html" .}}
+    
 	
     <div class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
         {{- /* Profile */ -}}
@@ -38,18 +38,7 @@
                 {{- .Render "summary" -}}
             {{- end -}}
             {{- partial "paginator.html" . -}}
-            {{ partial "plugin/ads.html" .}}
-            {{ partial "plugin/analytics.html" .}}
-	        
+	        {{ partial "plugin/ading.html" .}}
         {{- end -}}
-    </div>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BP9MCJ8XX6"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-BP9MCJ8XX6');
-    </script>
+    
 {{- end -}}

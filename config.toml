@@ -662,7 +662,7 @@ enableEmoji = false
   
     [languages.en.menu]
       [[languages.en.menu.main]]
-        weight = 1
+        weight = 2
         identifier = "posts"
         pre = ""
         post = ""
@@ -670,7 +670,7 @@ enableEmoji = false
         url = "/posts/"
         title = ""
       [[languages.en.menu.main]]
-        weight = 2
+        weight = 3
         identifier = "tags"
         pre = ""
         post = ""
@@ -678,7 +678,7 @@ enableEmoji = false
         url = "/tags/"
         title = ""
       [[languages.en.menu.main]]
-        weight = 3
+        weight = 4
         identifier = "categories"
         pre = ""
         post = ""
@@ -694,7 +694,7 @@ enableEmoji = false
         url = "/about/"
         title = ""
       [[languages.en.menu.main]]
-        weight = 5
+        weight = 1
         identifier = "veebileht"
         pre = ""
         post = ""
