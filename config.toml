@@ -455,12 +455,11 @@ enableEmoji = false
       # Utterances comment config (https://utteranc.es/)
       # Utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
-        issueTerm = "pathname"
-        label = ""
-        lightTheme = "github-light"
+        repo = "https://github.com/ZapCodes/elprince-uuendused"
+        issueTerm = "server"
+        label = "comment"
         darkTheme = "github-dark"
     # Third-party library config
     # 第三方库配置
@@ -547,7 +546,7 @@ enableEmoji = false
     # 用于 Cookie 许可横幅的文本字符串
     [params.cookieconsent.content]
       message = "Olete kaitstud leheküljel mis jälgib teie liigutusi"
-      dismiss = "yes"
+      dismiss = ""
       link = "https://support.google.com/analytics/answer/9976101?hl=en"
 
   # CDN config for third-party library files
@@ -701,6 +700,14 @@ enableEmoji = false
         name = "Pealeht"
         url = "/veebileht/"
         title = ""
+      [[languages.en.menu.main]]
+        weight = 6
+        identifier = "contact"
+        pre = ""
+        post = ""
+        name = "Bug Kaebus"
+        url = "/contact/"
+        title = ""
     [languages.en.params]
       [languages.en.params.search]
         enable = false
@@ -726,6 +733,7 @@ enableEmoji = false
           typeit = true
           social = true
           disclaimer = ""
+ 
       
 
   
