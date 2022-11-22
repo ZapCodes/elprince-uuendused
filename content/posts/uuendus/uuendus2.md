@@ -13,7 +13,7 @@ draft: false
 ---
 
 
-# UUENDUSED MIS HETKEL TOIMUVAD 
+# UUENDUSED MIS HETKEL TOIMUVAD -
 
 * Hetkel lisatud on erinevad ja uued MLO mapid.
 * Hetkel lisatud on MTD politseile custom seadetega.

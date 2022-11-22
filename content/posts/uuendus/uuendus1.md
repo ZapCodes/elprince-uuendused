@@ -1,5 +1,5 @@
 ---
-title: "Uuendus #1"
+title: "Uuendus - 10/11/2022"
 author: Stenuuu
 
 date: 2022-09-10

@@ -62,7 +62,7 @@ enableEmoji = false
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
-    post = ""
+    post = "uuendus2"
     name = "Uuendused"
     url = "/postitused/"
     # title will be shown when you hover on this menu link
@@ -546,7 +546,7 @@ enableEmoji = false
     # 用于 Cookie 许可横幅的文本字符串
     [params.cookieconsent.content]
       message = "Olete kaitstud leheküljel mis jälgib teie liigutusi"
-      dismiss = ""
+      dismiss = "ok"
       link = "https://support.google.com/analytics/answer/9976101?hl=en"
 
   # CDN config for third-party library files
@@ -665,7 +665,7 @@ enableEmoji = false
         identifier = "posts"
         pre = ""
         post = ""
-        name = "Postitused"
+        name = "Uuendused"
         url = "/posts/"
         title = ""
       [[languages.en.menu.main]]
@@ -676,14 +676,15 @@ enableEmoji = false
         name = "Tägid"
         url = "/tags/"
         title = ""
-      [[languages.en.menu.main]]
-        weight = 4
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "Kategooriad"
-        url = "/categories/"
-        title = ""
+      
+      #[[languages.en.menu.main]]
+       # weight = 4
+        #identifier = "categories"
+        #pre = ""
+        #post = ""
+        #name = "Kategooriad"
+        #url = "/posts/"
+        #title = ""
       [[languages.en.menu.main]]
         weight = 5
         identifier = "about"
